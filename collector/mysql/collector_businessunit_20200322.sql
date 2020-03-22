@@ -1,0 +1,9 @@
+INSERT INTO `collector_businessunit` VALUES (9, '云印');
+INSERT INTO `collector_businessunit` VALUES (8, '其他');
+INSERT INTO `collector_businessunit` VALUES (2, '包装');
+INSERT INTO `collector_businessunit` VALUES (3, '北美');
+INSERT INTO `collector_businessunit` VALUES (7, '欧洲');
+INSERT INTO `collector_businessunit` VALUES (6, '环宇国际');
+INSERT INTO `collector_businessunit` VALUES (4, '筹建');
+INSERT INTO `collector_businessunit` VALUES (1, '造纸');
+INSERT INTO `collector_businessunit` VALUES (5, '非考核主体');

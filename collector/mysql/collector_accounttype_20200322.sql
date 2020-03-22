@@ -1,0 +1,9 @@
+INSERT INTO `collector_accounttype` VALUES (8, '产销量');
+INSERT INTO `collector_accounttype` VALUES (9, '人数');
+INSERT INTO `collector_accounttype` VALUES (7, '利润');
+INSERT INTO `collector_accounttype` VALUES (10, '折摊');
+INSERT INTO `collector_accounttype` VALUES (6, '损益');
+INSERT INTO `collector_accounttype` VALUES (4, '收入');
+INSERT INTO `collector_accounttype` VALUES (2, '负债');
+INSERT INTO `collector_accounttype` VALUES (3, '费用');
+INSERT INTO `collector_accounttype` VALUES (1, '资产');
