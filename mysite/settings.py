@@ -83,17 +83,26 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'collector',
+#         'USER': 'angelo',
+#         'PASSWORD': 'angelo1018',
+#         'HOST': '127.0.0.1',
+#         'PORT': '3306',
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'collector',
-        'USER': 'angelo',
-        'PASSWORD': 'angelo1018',
-        'HOST': '127.0.0.1',
+        'USER': 'root',
+        'PASSWORD': 'ibs1234',
+        'HOST': '10.16.21.155',
         'PORT': '3306',
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
