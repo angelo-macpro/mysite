@@ -23,10 +23,7 @@ from django.test import TestCase
 # /Users/angelo/ONEDRIVE/OneDrive/IBS/python/lib/python3.8/site-packages
 
 
-# 装饰器
-
-
-# 先写一个计算某个任务函数执行时间的装饰器
+# 装饰器：先写一个计算某个任务函数执行时间的装饰器
 import time
 
 

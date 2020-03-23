@@ -6,7 +6,7 @@ import inspect
 import sys
 os.environ.setdefault(
     "DJANGO_SETTINGS_MODULE",
-    "IBS.settings")  # project_name 项目名称
+    "mysite.settings")  # project_name 项目名称
 django.setup()
 from collector import models, models_view
 import pymysql
@@ -63,5 +63,12 @@ from dateutil.relativedelta import relativedelta
 #     i = i+1
 #     print(i)
 
+from django.contrib import admin
+from django.urls import path,include
+print(type(django))
+print(type(django.contrib.admin))
+print(path.__dir__)
+print(include.__dir__)
 
+print(type(models))
 
