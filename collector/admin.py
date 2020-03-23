@@ -32,7 +32,7 @@ class CompanyAdmin(admin.ModelAdmin):
 
 class MysqlViewAdim(admin.ModelAdmin):
     list_display = ('id','versionname', 'companyname', 'accountname', 'typename', 'currencyname', 'amount','amount_0','ytdactual','ytdbudget')
-    list_display_links = ['versionname']
+    # list_display_links = ['versionname']
     list_filter = ('companyname', 'accountname', 'typename','currencyname')
     search_fields = ('companyname', 'accountname', 'typename','currencyname')
     list_per_page = 10
