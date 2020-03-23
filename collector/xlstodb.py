@@ -60,7 +60,7 @@ def xlstodb(localpath, sheetlist):
                         except Exception as e:
                             print(tbname + '导入失败：', e)
                     wb.close()  # 关闭excel
-            except ObjectDoesNotExist:
+            except models.Version.objects.DoesNotExist:
                 print("该文件版本号不存在，请用此文件执行'填报'程序更新后再执行'上传'程序！")
         else:
             print(
