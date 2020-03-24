@@ -56,7 +56,6 @@ def xltoxl(localpath):
 
         # 导出表新增内容
         excludest = ['ActualData','BudgetData','YtdData','User'] #排除列表
-        excludest =[]
         for stname, obj in inspect.getmembers(models):
             if inspect.isclass(obj):
                 ws = wb[stname]
