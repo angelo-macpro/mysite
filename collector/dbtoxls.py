@@ -1,19 +1,16 @@
 # Pyhton 下用Django语法增删查改，注意创建空的数据库需要在终端或数据库软件中，表结构需要在models.py模块
+import inspect
 import os
 import django
-import datetime
-import time
-import inspect
-import sys
+
 os.environ.setdefault(
     "DJANGO_SETTINGS_MODULE",
     "mysite.settings")  # project_name 项目名称
 django.setup()
 from tkinter import filedialog
 import tkinter as tk
-from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Font, colors
-from openpyxl import load_workbook, Workbook
-import pymysql
+from openpyxl.styles import Font, colors
+from openpyxl import Workbook
 from collector import models, models_view
 
 
