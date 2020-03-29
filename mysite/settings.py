@@ -23,9 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'gzd0^y4(s()#m2r3^lyj-=r96v&e9(o0dm$psy2hcm2xcr#bfm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -86,9 +87,9 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'collector',
-#         'USER': 'angelo',
-#         'PASSWORD': 'angelo1018',
+#         'NAME': 'polls',
+#         'USER': 'root',
+#         'PASSWORD': 'root1234',
 #         'HOST': '127.0.0.1',
 #         'PORT': '3306',
 #     }
@@ -96,7 +97,8 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'collector',
+        # 'NAME': 'collector',
+        'NAME': 'polls',
         'USER': 'root',
         'PASSWORD': 'ibs1234',
         'HOST': '10.16.21.155',
